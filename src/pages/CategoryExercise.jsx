@@ -5,3 +5,4 @@ export default function CategoryExercise() {
     <div>CategoryExercise</div>
   )
 }
+
