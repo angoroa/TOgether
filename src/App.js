@@ -9,6 +9,10 @@ import Header from "./components/Header";
 import MyPage from "./pages/MyPage";
 import Login from "./pages/Login";
 import Notification from "./pages/Notification";
+import CategoryMeal from "./pages/CategoryMeal";
+import CategoryExercise from "./pages/CategoryExercise";
+import CategoryConcert from "./pages/CategoryConcert";
+import CategoryHobby from "./pages/CategoryHobby";
 
 function App() {
   return (
@@ -24,6 +28,10 @@ function App() {
         <Route path="/mypage" element= {<MyPage/>} />
         <Route path="/notification" element= {<Notification/>} />
         <Route path="/login" element= {<Login/>} />
+        <Route path="/ctgmeal" element= {<CategoryMeal/>}/>
+        <Route path="/ctgexercise" element= {<CategoryExercise/>}/>
+        <Route path="/ctgconcert" element= {<CategoryConcert/>}/>
+        <Route path="/ctghobby" element= {<CategoryHobby/>}/>
         <Route path="/*" element= {<NotFound/>} />
       </Routes>
     </BrowserRouter>
