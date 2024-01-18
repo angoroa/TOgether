@@ -13,6 +13,8 @@ import CategoryMeal from "./pages/CategoryMeal";
 import CategoryExercise from "./pages/CategoryExercise";
 import CategoryConcert from "./pages/CategoryConcert";
 import CategoryHobby from "./pages/CategoryHobby";
+import Follower from "./pages/Follower";
+import FriendList from "./pages/FriendList";
 
 function App() {
   return (
@@ -32,6 +34,9 @@ function App() {
         <Route path="/ctgexercise" element= {<CategoryExercise/>}/>
         <Route path="/ctgconcert" element= {<CategoryConcert/>}/>
         <Route path="/ctghobby" element= {<CategoryHobby/>}/>
+        <Route path="/Following" element= {<Friend/>}/>
+        <Route path="/Follower" element = {<Follower/>}/>
+        <Route path="FriendList" element= {<FriendList/>}/>
         <Route path="/*" element= {<NotFound/>} />
       </Routes>
     </BrowserRouter>
