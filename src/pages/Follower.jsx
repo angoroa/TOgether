@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import FriendBanner from '../components/FriendBanner';
 import FriendPost from '../components/FriendPost';
+import FollowerPost from '../components/FollowerPost';
 
 export default function Follower() {
     return (
@@ -22,10 +23,11 @@ export default function Follower() {
           </div>
         </div>
         <br/>
-        <FriendPost/>
-        <FriendPost/>
-        <FriendPost/>
-        <FriendPost/>
+        <FollowerPost/>
+        <FollowerPost/>
+        <FollowerPost/>
+        <FollowerPost/>
+        
         </>
       )
     }

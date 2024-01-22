@@ -210,25 +210,37 @@ justify-content: center;
     display: flex;
     justify-content: center;
     align-items: center;
-
-
 }
 .Header-Post{
-
     width:970px;
     display:flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 2px #D2D2D2 solid;
-
-    
+    border-radius: 10px;
+    margin: 3px;
+    box-shadow: 0px 4px 20px 0 rgba(51, 51, 51, 0.1);
+  
 }
+.Header-Post-Title{
+    font-weight: bold;
+}
+.Header-Post-User{
+    font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+    font-size: small;
+}
+
 .HP-1{
-    width: 300px;
-    margin:30px;
+
+    width: 450px;
     display:flex;
-    margin:35px;
-    justify-content: space-between;
+    margin:20px;
+    align-items: center;
+}
+.HP-1 .Header-Post-User{
+    margin-left:15px;
+}
+.HP-1 .Header-Post-Title{
+    margin-left:40px;
 }
 .HP-2{
     width: 90px;
@@ -236,6 +248,12 @@ justify-content: center;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.RequestMessage{
+    color:#999999;
+    font-size: small;
+    margin: 20px;
 }
 .HP-2 button{
     border:1.5px #5C8BD1 solid;

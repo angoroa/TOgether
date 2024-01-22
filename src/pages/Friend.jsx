@@ -26,6 +26,7 @@ export default function Friend() {
     <FriendPost/>
     <FriendPost/>
     <FriendPost/>
+    <FriendPost/>
     </>
   )
 }
